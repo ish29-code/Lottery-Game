@@ -1,0 +1,13 @@
+.ticket{
+     background-color: rgb(181, 131, 228);
+     border: 2px solid rebeccapurple;
+     border-radius: 14px;
+     margin: 20px;
+}
+@media (max-width: 600px) {
+     .ticket {
+         border-radius: 10px;
+         margin: 30px;
+         margin-top: 90px;
+     }
+ }

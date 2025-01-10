@@ -1,0 +1,15 @@
+.ticket-num{
+     color: rgb(13, 13, 13);
+     padding: 10px;
+     border-radius: 14px;
+     font-size: 5rem;
+     margin: 70px;
+     
+}
+@media (max-width: 600px) {
+     .ticket-num {
+         font-size: 3rem;
+         margin: 20px;
+         padding: 20px;
+     }
+ }

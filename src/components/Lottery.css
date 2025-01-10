@@ -1,0 +1,50 @@
+body{
+     background-color: #fffafa6a;
+     font-family: 'Roboto', sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 500px;
+ }
+ h1{
+     font-size: 7rem;
+     color: rgb(2, 2, 2);
+ }
+ button{
+     background-color: rgb(181, 131, 228);
+     border: 2px solid rebeccapurple;
+     border-radius: 14px;
+     padding: 10px;
+     font-size: 2rem;
+     margin: 20px;
+     cursor: pointer;
+     margin-left: 220px;
+ }
+ h2{
+     font-size: 2rem;
+     color: rgb(132, 70, 110);
+     margin-left: 150px;
+ }
+ @media (max-width: 600px) {
+    /* Adjust styles for phones */
+    body {
+        font-size: 30px;
+        margin: 10px;
+        margin-left: 20px;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        margin-left: 60px;
+    }
+    button {
+        font-size: 30px;
+        margin: 40px;
+        margin-left: 70px;
+    }
+    h1 {
+        font-size: 3rem;
+        margin: 30px;
+        margin-left: 40px;
+    }
+}
